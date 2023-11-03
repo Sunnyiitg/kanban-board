@@ -1,0 +1,71 @@
+.userprior{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 10px 20px;
+}
+.todo-cards{
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+/* .user-cards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 22px;
+} */
+.userprior-heading{
+    /* border: 1px solid blue; */
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.userprior-first,.userprior-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.userprior-icon{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.userprior-title{
+    font-weight: 700;
+    font-size: 18px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+.userprior-len{
+    font-weight: 500;
+    opacity: 0.7;
+}
+.userprior-nocard{
+    /* border: 1px solid black; */
+    font-size: 17px;
+    font-weight: 600;
+    opacity: 0.5;
+    text-align: center;
+    /* padding: 10px 0; */
+}
+.user-status-yes{
+    background-color: rgb(47, 232, 47);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.user-status-no{
+    background-color: rgb(251, 59, 56);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .user-cards{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+  }

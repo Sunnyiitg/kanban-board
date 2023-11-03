@@ -1,0 +1,63 @@
+.display2-main{
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(55, 54, 54);
+    margin-bottom: 25px;
+}
+.display2-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 30px;
+    border: 1px solid wheat;
+    margin:10px 0;
+    margin-left: 40px;
+    box-shadow: rgba(245, 245, 245, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.display2-sub{
+    border: 1px solid wheat;
+    position: absolute;
+    left: 40px;
+    top: 54px;
+    background-color: rgb(55, 54, 54);
+    padding: 10px 15px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100;
+}
+.grouping{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.ordering{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.display2-sub select{
+    /* border: 1px solid red; */
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}

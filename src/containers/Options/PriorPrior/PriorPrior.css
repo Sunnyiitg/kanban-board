@@ -1,0 +1,36 @@
+
+.userprior-top {
+    margin-bottom: 20px; /* Add some spacing between priority sections */
+  }
+  
+  .userprior-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .userprior-first {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userprior-title {
+    margin-left: 10px;
+  }
+  
+  .userprior-icon {
+    font-size: 24px; /* Adjust the icon size */
+  }
+  
+  .userprior-nocard {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .priority-column{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  

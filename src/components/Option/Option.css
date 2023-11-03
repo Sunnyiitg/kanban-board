@@ -1,0 +1,14 @@
+.option-main{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 120px;
+    background-color: var(--background2);
+    cursor: pointer;
+}
+.option-main p{
+    font-weight: 400;
+}

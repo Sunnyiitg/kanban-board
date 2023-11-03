@@ -1,0 +1,67 @@
+.display-main{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px 10px 40px;
+    color: var(--text);
+    position: relative;
+    margin-bottom: 280px;
+}
+.display-button{
+    z-index: 10;
+    background-color: var(--bg_black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) -1.95px -1.95px 2.6px;
+    /* border: 1px solid blue; */
+}
+.display-button:hover{
+    cursor: pointer;
+}
+.display-text{
+    font-weight: 500;
+}
+.display-icon{
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.display-sub{
+    width: 340px;
+    z-index: 5;
+    /* border: 2px solid red; */
+    position: absolute;
+    padding: 10px 15px;
+    top: 64%;
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
+    color: var(--text);
+    background-color: var(--bg_black);
+}
+.display-sub-options ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+}
+.display-sub-options ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.display-3rd{
+    /* border: 2px solid red; */
+    width: 200px;
+}
+.display-sub-final
+{
+    margin:10px 0;
+    margin-left: 50px;
+}
